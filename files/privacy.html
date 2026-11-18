@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy – [APP NAME]</title>
+<!--
+  À REMPLACER avant de publier :
+    [APP NAME]   le nom exact de ton app TikTok
+    [YOUR NAME]  ton nom ou pseudo
+    [YOUR EMAIL] une adresse de contact valide
+    [DATE]       la date du jour (ex. November 17, 2026)
+-->
+<style>
+  :root {
+    --bg: #fbfbfa;
+    --surface: #ffffff;
+    --text: #1d2125;
+    --muted: #5b646d;
+    --rule: #dcdfe3;
+    --link: #0b5fd1;
+    color-scheme: light;
+  }
+  :root:not([data-theme="light"]) {
+    color-scheme: light dark;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #14171a;
+      --surface: #1b1f23;
+      --text: #e6e8ea;
+      --muted: #9aa3ab;
+      --rule: #2d333a;
+      --link: #6ea8fe;
+    }
+  }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font: 17px/1.65 system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  }
+  main {
+    max-width: 42rem;
+    margin: 0 auto;
+    padding: 3rem 1.25rem 4rem;
+  }
+  nav { margin-bottom: 2.5rem; font-size: 0.95rem; color: var(--muted); }
+  nav a { margin-right: 1.25rem; }
+  h1 { font-size: 2rem; line-height: 1.2; margin: 0 0 0.4rem; letter-spacing: -0.01em; }
+  h2 { font-size: 1.2rem; line-height: 1.3; margin: 2.4rem 0 0.5rem; }
+  p, ul { margin: 0 0 1rem; }
+  ul { padding-left: 1.3rem; }
+  li { margin-bottom: 0.4rem; }
+  .updated { color: var(--muted); margin-bottom: 2rem; }
+  a { color: var(--link); text-underline-offset: 0.15em; }
+  a:focus-visible { outline: 3px solid var(--link); outline-offset: 3px; border-radius: 2px; }
+  code { font: 0.9em ui-monospace, "SF Mono", Menlo, Consolas, monospace; background: var(--surface); border: 1px solid var(--rule); padding: 0.05em 0.35em; border-radius: 4px; }
+  footer { margin-top: 3rem; padding-top: 1.25rem; border-top: 1px solid var(--rule); color: var(--muted); font-size: 0.9rem; }
+</style>
+</head>
+<body>
+<main>
+  <nav>
+    <a href="terms.html">Terms of Service</a>
+    <a href="privacy.html" aria-current="page">Privacy Policy</a>
+  </nav>
+
+  <h1>Privacy Policy</h1>
+  <p class="updated">[APP NAME] · Last updated: [DATE]</p>
+
+  <h2>Who operates this app</h2>
+  <p>[APP NAME] is a personal, non-commercial tool operated by [YOUR NAME] (“I”, “me”) from France. It is used only by its operator, to prepare short vertical videos and upload them to the operator’s own TikTok account. It is not offered to the public and has no other users.</p>
+
+  <h2>Data the app handles</h2>
+  <ul>
+    <li><strong>TikTok authorization data.</strong> When I connect my account through TikTok Login Kit, the app receives an access token, a refresh token and my TikTok open ID. The app requests the scopes <code>user.info.basic</code>, <code>video.upload</code> and <code>video.publish</code>, which let it read basic profile information and send videos to my account.</li>
+    <li><strong>Videos and captions.</strong> The video files and captions that I choose to upload.</li>
+    <li><strong>Public Twitch data.</strong> Public clip information from the Twitch API, such as clip titles, view counts and channel names. This is public content metadata, not data about users of the app.</li>
+  </ul>
+  <p>The app does not collect personal data about anyone else. It has no analytics, no advertising and no tracking cookies.</p>
+
+  <h2>Where the data is stored</h2>
+  <p>Tokens, videos and the clip database are stored only on the operator’s own computer. The app has no server and no online database. Data leaves the computer only to reach TikTok (uploads and authorization) and Twitch (requests to its public API), and only as needed for the functions above.</p>
+
+  <h2>Sharing</h2>
+  <p>I do not sell, rent or share data with third parties. TikTok and Twitch receive the data described above in order to provide their services, and handle it under their own privacy policies.</p>
+
+  <h2>Retention and deletion</h2>
+  <p>Authorization data is kept until I disconnect the app. To revoke access, remove the app from the app permissions in the TikTok account settings and delete the local token file. Videos that were already published stay on TikTok until they are deleted there.</p>
+
+  <h2>This website</h2>
+  <p>This site consists of static pages hosted on GitHub Pages. I do not run analytics on it and do not collect any information from visitors. GitHub may log visits according to its own privacy statement.</p>
+
+  <h2>Your rights</h2>
+  <p>If you are in the European Union or the United Kingdom, you have rights of access, correction and erasure over personal data held about you. Because the app only processes its operator’s own data, I should not hold personal data about anyone else. If you think I do, contact me and I will look into it and delete it.</p>
+
+  <h2>Changes to this policy</h2>
+  <p>I may update this policy if the app changes. The date at the top shows the latest revision.</p>
+
+  <h2>Contact</h2>
+  <p>Questions about this policy: <a href="mailto:[YOUR EMAIL]">[YOUR EMAIL]</a></p>
+
+  <footer>[APP NAME] · Operated by [YOUR NAME]</footer>
+</main>
+</body>
+</html>
